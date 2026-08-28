@@ -1,0 +1,9 @@
+.product-card { min-width: 0; padding: 16px; background: var(--cinza-claro); border: 1px solid var(--cinza-borda); border-radius: 10px; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.product-card:hover { transform: translateY(-3px); box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1); }
+.product-card-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 10px; }
+.product-card h3 { margin: 0 0 4px; overflow-wrap: anywhere; font-size: 1.05rem; color: var(--preto); }
+.product-marca { margin: 0 0 8px; font-size: 0.85rem; color: #666666; }
+.product-preco { margin: 0; font-size: 1.1rem; font-weight: 700; color: var(--vermelho-escuro); }
+.badge { padding: 3px 8px; border-radius: 999px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; }
+.badge-novo { background: #1f8a3b; color: var(--branco); }
+.badge-usado { background: var(--cinza-escuro); color: var(--branco); }

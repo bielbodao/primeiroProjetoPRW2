@@ -1,0 +1,13 @@
+.banner {
+  width: clamp(120px, 24vw, 240px);
+  display: block;
+  height: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 560px) {
+  .banner {
+    width: min(100%, 220px);
+    margin: 16px auto 0;
+  }
+}
